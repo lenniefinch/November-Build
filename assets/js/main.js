@@ -95,7 +95,7 @@ const fadeContent = (element, opacity, duration = 300) => {
     })
 }
 
-const getCardContent = (title1, title2, title3, title4, title5, title6, type, description1, description2, details1, details2) => {
+const getCardContent = (title1, title2, title3, title4, title5, title6, type, description1, description2, details1, details2, detailText1, detailText2) => {
     return `
         <div class="card-content">
             <div class="card-hero">
@@ -105,17 +105,20 @@ const getCardContent = (title1, title2, title3, title4, title5, title6, type, de
             <div class="card-description">
             <h2>${title2}</h2>
             <p>
-${description1}
+            ${description1}
             </p>
+
             <div class="card-description-2">
             <h2>${details1}</h2>
-
+            <p>${detailText1}</p>
+            <h2>${details2}</h2>
+            <p>${detailText1}</p>
             </div>
 
 
             </div>
             <p>
-${description2}
+            ${description2}
             </p>
         </div>
     `;
