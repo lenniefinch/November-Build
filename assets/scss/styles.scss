@@ -413,6 +413,66 @@ p.home__description{
     }
 }
 
+/*            Start Of Cards                 */
+
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+    position: relative;
+  }
+  
+  .grid-container *:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* animation*/
+  
+          @keyframes slideDown {
+              100%{
+                  transform: translateY(0);
+                  opacity: 1;
+              }
+          }
+  
+  .card-content {
+              padding: 100px 25px 25px;
+              overflow: auto;
+              height: 100%;
+              color: #3e3e3f;
+              background-color: #fff;
+              z-index: 110;
+              position: relative;
+          }
+          .card-content > * {
+              transform: translateY(-35px);
+              opacity: 0;
+          }
+          .card-content h2 {
+              font-size: 32px;
+              margin-bottom: 35px !important;
+              animation: slideDown 0.5s ease-out forwards;
+          }
+          .card-content img {
+              width: 100%;
+              background-color: #fff;
+              margin-bottom: 10px;
+              animation: slideDown 0.5s ease-out 0.2s forwards;
+          }
+          .card-content p {
+              color: #999;
+              animation: slideDown 0.5s ease-out 0.4s forwards;
+          }
+  
+
+
+
+
+
+
+
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and(min-width: 768px){
     body{
