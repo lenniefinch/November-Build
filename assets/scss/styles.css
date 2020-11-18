@@ -272,9 +272,9 @@ img {
 }
 
 p.home__description {
-  max-width: 500px;
+  max-width: 350px;
   margin-bottom: var(--mb-5);
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 /*BUTTONS*/
@@ -399,6 +399,7 @@ p.home__description {
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
+  overflow: hidden;
 }
 
 .work__img {
@@ -469,12 +470,17 @@ p.home__description {
 }
 
 /*            Start Of Cards                 */
+/*Hide stuff here on grid view*/
+.item1 h2 {
+  display: none;
+}
+
 /* For presentation only, no need to copy the code below */
-.grid-container * {
+.work__container * {
   position: relative;
 }
 
-.grid-container *:after {
+.work__container *:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -510,6 +516,7 @@ p.home__description {
   -webkit-transform: translateY(-35px);
           transform: translateY(-35px);
   opacity: 0;
+  display: block;
 }
 
 .card-content h2 {
@@ -517,6 +524,7 @@ p.home__description {
   margin-bottom: 35px !important;
   -webkit-animation: slideDown 0.5s ease-out forwards;
           animation: slideDown 0.5s ease-out forwards;
+  display: block;
 }
 
 .card-content img {
@@ -528,9 +536,16 @@ p.home__description {
 }
 
 .card-content p {
-  color: #999;
+  color: #3e3e3f;
   -webkit-animation: slideDown 0.5s ease-out 0.4s forwards;
           animation: slideDown 0.5s ease-out 0.4s forwards;
+}
+
+.card-content.card-hero h1 {
+  font-size: 32px;
+  margin-bottom: 35px !important;
+  -webkit-animation: slideDown 0.5s ease-out forwards;
+          animation: slideDown 0.5s ease-out forwards;
 }
 
 /* ===== MEDIA QUERIES=====*/

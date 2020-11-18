@@ -1,0 +1,110 @@
+        <div class="card-content">
+            <div class="card-hero">
+            <h1>${title0}</h1>
+            <img src="./assets/${type1}.jpeg" alt="${title1}">
+            </div>
+
+            <div class="card-description">
+            <h2>${title2}</h2>
+            <p>
+            ${description1}
+            </p>
+            <div class="card-description-2">
+            <h2>${details1}</h2>
+            <p>${detailText1}</p>
+            <h2>${details2}</h2>
+            <p>${detailText1}</p>
+            </div>
+            </div>
+
+            <div class="card-research">
+            <img src="./assets/${type2}.png" alt="${title2}">
+            <h2>${title3}</h2>
+            <p>
+            ${description2}
+            </p>
+            </div>
+
+            <div class="card-initial">
+            <img src="./assets/${type3}.png" alt="${title3}">
+            <h2>${title4}</h2>
+            <p>
+            ${description3}
+            </p>
+            </div>
+
+            <div class="card-revisions">
+            <img src="./assets/${type4}.png" alt="${title4}">
+            <h2>${title5}</h2>
+            <p>
+            ${description4}
+            </p>
+            </div>
+
+            <div class="card-outcome">
+            <img src="./assets/${type5}.png" alt="${title5}">
+            <h2>${title6}</h2>
+            <p>
+            ${description5}
+            </p>
+            </div>
+        </div>
+
+                                <h1>Title</h1>
+                            
+                            <img src="assets/img/work1.jpg" alt="">
+                           
+                
+                          
+                            <h2>The Mission</h2>
+                            <p>
+                                I'm a creative designer, I like to use illustration
+                                and animation to produce emotive designs, as
+                                I see them as a fun way to engage with an
+                                audience.
+                            </p>
+                         
+                            <h2>Client</h2>
+                            <p>Orchard</p>
+                            <h2>Services</h2>
+                            <p>Brand Identity Design
+                                & Web design</p>
+                      
+                
+                       
+                            <img src="./assets/img/jess-bailey-l3N9Q27zULw-unsplash(1).jpg" alt="image">
+                            <h2>Research</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum ipsa molestiae nesciunt nostrum porro
+                                reprehenderit? Animi corporis deleniti dolore laborum, nemo pariatur temporibus voluptatem.
+                            </p>
+                        
+                
+                          
+                            <img src="./assets/img/freddie-marriage-iYQC9xWMvw4-unsplash.jpg" alt="image1">
+                            <h2>Initial Ideas</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum ipsa molestiae nesciunt nostrum porro
+                                reprehenderit? Animi corporis deleniti dolore laborum, nemo pariatur temporibus voluptatem.
+                            </p>
+                        
+                
+                            
+                            <img src="./assets/img/work3.jpg" alt="image2">
+                            <h2>Revisions</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum ipsa molestiae nesciunt nostrum porro
+                                reprehenderit? Animi corporis deleniti dolore laborum, nemo pariatur temporibus voluptatem.
+                            </p>
+                            
+                
+                            
+                            <img src="./assets/img/freestocks-BStW5kYXw4E-unsplash.jpg" alt="image3">
+                            <h2>The Outcome</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum ipsa molestiae nesciunt nostrum porro
+                                reprehenderit? Animi corporis deleniti dolore laborum, nemo pariatur temporibus voluptatem.
+                            </p>
+                            
+
+
