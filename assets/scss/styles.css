@@ -266,15 +266,15 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 295px;
-  margin-bottom: 120px;
+  width: 395px;
+  margin-bottom: 250px;
   margin-right: 240px;
 }
 
 p.home__description {
-  max-width: 350px;
+  max-width: 500px;
   margin-bottom: var(--mb-5);
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 /*BUTTONS*/
@@ -471,8 +471,16 @@ p.home__description {
 
 /*            Start Of Cards                 */
 /*Hide stuff here on grid view*/
-.item1 h2 {
+.item1 h1 {
   display: none;
+}
+
+.card {
+  position: absolute;
+  /*z-index: var(--z-fixed);*/
+  z-index: 80;
+  width: 100%;
+  height: 100%;
 }
 
 /* For presentation only, no need to copy the code below */
@@ -504,12 +512,15 @@ p.home__description {
 
 .card-content {
   padding: 100px 25px 25px;
-  overflow: auto;
   height: 100%;
   color: #3e3e3f;
   background-color: #fff;
-  z-index: 110;
-  position: relative;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  overflow: auto;
 }
 
 .card-content > * {
@@ -519,7 +530,7 @@ p.home__description {
   display: block;
 }
 
-.card-content h2 {
+.card-content h1 {
   font-size: 32px;
   margin-bottom: 35px !important;
   -webkit-animation: slideDown 0.5s ease-out forwards;
@@ -533,12 +544,15 @@ p.home__description {
   margin-bottom: 10px;
   -webkit-animation: slideDown 0.5s ease-out 0.2s forwards;
           animation: slideDown 0.5s ease-out 0.2s forwards;
+  display: block;
 }
 
 .card-content p {
   color: #3e3e3f;
   -webkit-animation: slideDown 0.5s ease-out 0.4s forwards;
           animation: slideDown 0.5s ease-out 0.4s forwards;
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
 
 .card-content.card-hero h1 {
@@ -604,43 +618,45 @@ p.home__description {
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
-  .home__img {
-    width: 457px;
-    bottom: 15%;
-  }
-  .about__container {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: left;
-  }
-  .about__img img {
-    width: 300px;
-  }
-  .skills__container {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: left;
-  }
-  .work__container {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
-    -webkit-column-gap: 2rem;
-            column-gap: 2rem;
-  }
-  .contact__form {
-    width: 360px;
-  }
-  .contact__container {
-    justify-items: center;
-  }
+}
+
+.about__container {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.about__img img {
+  width: 300px;
+}
+
+.skills__container {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.work__container {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.contact__form {
+  width: 360px;
+}
+
+.contact__container {
+  justify-items: center;
 }
 
 @media screen and (min-width: 1024px) {

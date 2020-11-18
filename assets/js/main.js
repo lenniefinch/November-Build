@@ -96,15 +96,20 @@ const cards = document.querySelectorAll('.card');
 			})
 		}
 
-		const getCardContent = (title, type, desc) => {
-			return `
+		function getCardContent(title, type, desc, t, i, m) {
+	return `
 				<div class="card-content">
-					<h2>${title}</h2>
-					<img src="${type}.png" alt="${title}">
+					<h1>${title}</h1>
+					<img src="${type}.png">
 					<p>${desc}</p>
-				</div>
+					<h1>${t}</h1>
+				<img src="${i}.png">
+				<p>${m}</p>
+			</div>
+
+
 			`;
-		}
+}
 
 		const onCardClick = async (e) => {
 			const card = e.currentTarget;
